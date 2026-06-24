@@ -1,30 +1,30 @@
-# Vision
+# Visión
 
-Engineering Bridge exists to reduce the gap between architecture documentation and software delivery.
+Engineering Bridge existe para reducir la brecha entre la documentación de arquitectura y la entrega de software.
 
-Many teams write documentation at the beginning of a project, but fail to keep it updated after implementation starts. This creates risk during maintenance, onboarding, audits and cross-team collaboration.
+Muchos equipos escriben documentación al inicio de un proyecto, pero no logran mantenerla actualizada cuando la implementación avanza. Esto genera riesgo en mantenimiento, onboarding, auditorías y colaboración entre equipos.
 
-This repository proposes a simple bridge:
+Este repositorio propone un puente simple:
 
 ```text
-Architecture artifacts → executable specs → implementation tasks → code/tests/docs
+Artefactos de arquitectura → especificaciones ejecutables → tareas de implementación → código / pruebas / documentación
 ```
 
-## Principles
+## Principios
 
-1. Documentation must help delivery, not block it.
-2. Specs must be small enough to be used by developers and AI agents.
-3. Architecture decisions must remain traceable after implementation.
-4. Tooling must be optional.
-5. Markdown is the default interface.
-6. Kiro is supported, but not required.
+1. La documentación debe ayudar a entregar software, no bloquear el desarrollo.
+2. Las especificaciones deben ser lo suficientemente pequeñas para que las usen desarrolladores y asistentes de IA.
+3. Las decisiones de arquitectura deben seguir siendo trazables después de la implementación.
+4. Las herramientas deben ser opcionales.
+5. Markdown es la interfaz principal.
+6. Kiro puede usarse, pero no es obligatorio.
 
-## Intended users
+## Usuarios previstos
 
-- Backend developers
-- Software architects
-- Technical leads
-- Engineering managers
+- Desarrolladores backend
+- Arquitectos de software
+- Líderes técnicos
+- Engineering Managers
 - Product engineers
-- Teams adopting Spec-Driven Development
-- Teams experimenting with AI-assisted development
+- Equipos que adoptan Spec-Driven Development
+- Equipos que experimentan con desarrollo asistido por IA
